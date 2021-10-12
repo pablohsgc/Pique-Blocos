@@ -190,7 +190,7 @@ let persequicao = setInterval(() => {
 
 
 function recarrega_pagina(){
-    window.location.href = "./teclado.html";
+    window.location.href = "../game.html";
 }
 
 const game_over = () => {
