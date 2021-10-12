@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.area-navegacao{
+    display: grid;
+    margin: 15px auto;
+    background-color: rgb(173, 110, 27);
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+}
+
+.blocoAzul{
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    position: relative;
+}
+
+.blocoVermelho{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    position: absolute;
+    margin: 580px;
+}
+
+.ponto{
+    background-color: yellow;
+    height: 20px;
+    width: 20px;
+    margin: 320px;
+    position: absolute;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#btn-reiniciar{
+    position: absolute;
+    margin: auto;
+    width: 100px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 20px;
+}

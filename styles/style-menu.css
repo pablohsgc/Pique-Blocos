@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    font-family: 'Rampart One', cursive;
+    font-size: 10vh;
+}
+
+body{
+    display: grid;
+    background-color: rgb(173, 110, 27);
+}
+
+ul{
+    list-style: none; 
+}
+
+.menu{
+    text-align: center;
+    position: absolute;
+    margin: 39vh auto;
+    font-size: 6vh;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: yellow;
+    transition: ease-out;
+}
+
+span{
+    font-weight: 600;
+}
