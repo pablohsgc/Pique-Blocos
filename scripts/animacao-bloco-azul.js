@@ -94,7 +94,7 @@ setInterval(() => {
 
     if(bloco.capturou_bloco(ponto_amarelo.posicao_x,ponto_amarelo.posicao_y,ponto_amarelo.tamanho)){
         ponto_amarelo.nova_coordenada();
-        setTimeout(()=>{
+        setTimeout(()=>{ //atraso para ajustar bloco
             div_ponto.style.margin = `${ponto_amarelo.posicao_x}px ${ponto_amarelo.posicao_y}px`;
         },200);
     }
