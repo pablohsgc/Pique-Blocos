@@ -25,5 +25,5 @@ ponto = new Ponto(0,0,10);
 var animacao = setInterval(() => {
     ponto.nova_coordenada();
     div_bloco_amarelo.style.margin = `${ponto.posicao_x}px ${ponto.posicao_y}px`;
-},500);
+},1000);
 
