@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    font-family: 'Rampart One', cursive;
+    font-size: 10vh;
+}
+
+h2{
+    font-family: 'Fira Sans', sans-serif;
+    text-indent: 1vw;
+    padding: 5px;
+}
+
+body{
+    display: grid;
+    background-color: rgb(173, 110, 27);
+}
+
+.areaTexto{
+    background-color: aliceblue;
+    margin: 10px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,.9);
+    padding: 10px;
+}
+
+p{
+    text-indent: 2vw;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/*Pode ser criado um css apenas para isso*/
+.areaAnimacao{
+    display: grid;
+    margin: 10px auto;
+    background-color: rgb(173, 110, 27);
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+.blocoAmarelo{
+    background-color: yellow;
+    height: 10px;
+    width: 10px;
+}
+
+.blocoVermelho{
+    background-color: red;
+    height: 10px;
+    width: 10px;
+}

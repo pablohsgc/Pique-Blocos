@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/style-instrucoes.css"/>
+    <title>Pique Blocos - Instruções</title>
+</head>
+<body>
+    <header><h1>Pique Blocos</h1></header>
+    <div class="areaTexto">
+        <h2>Idéia do Jogo</h2>
+        <p>Neste jogo, existem apenas 3 blocos diferentes: bloco azul, bloco vermelho e bloco amarelo.</p>
+        <p>Cada bloco possui uma determinada função, e o objetivo principal é fazer com que o bloco azul capture mais blocos amarelos o quanto possível, sem que seja capturado pelo bloco vermelho.</p>
+        <h2>Blocos Amarelos</h2>
+        <p>Os blocos amarelos devem ser capturados pelo bloco azul.</p>
+        <p>Apenas um bloco amarelo surge por vez. A localização do bloco é aleatória, durante o jogo, este bloco pode surgir em qualquer lugar na determinada.</p>
+        <p>Ao ser capturado o jogador pontua e aumenta o nivel do jogo.</p>
+        <div class="areaAnimacao"><div class="blocoAmarelo" id="bloco-amarelo-1"></div></div>
+        <h2>Bloco Vermelho</h2>
+        <p>O jogo possui apenas um bloco vermelho que aumenta de tamanho a cada nivel no jogo.</p>
+        <p>O bloco vermelho deve ser evitado e o jogador não deve deixar que o bloco vermelho colida com o bloco azul, caso isso aconteça, o jogo termina.</p>
+        <p>O bloco sempre irá perseguir o jogador, basta os blocos colidirem para ser declarado o fim de jogo.</p>
+        <div class="areaAnimacao"><div class="blocoVermelho" id="bloco-vermelho-1"></div></div>
+    </div>
+
+    <script src="scripts/animacao-bloco-amarelo.js"></script>
+</body>
+</html>
