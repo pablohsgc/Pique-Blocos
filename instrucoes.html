@@ -31,9 +31,17 @@
             <li>O bloco vermelho deve ser evitado e o jogador não deve deixar que o bloco vermelho colida com o bloco azul, caso isso aconteça, o jogo termina.</li>
             <li>O bloco sempre irá perseguir o jogador, basta os blocos colidirem para ser declarado o fim de jogo.</li>
         </ul>
-        <div class="areaAnimacao"><div class="blocoVermelho" id="bloco-vermelho-1"></div></div>
+        <div class="areaAnimacao"><div class="blocoVermelho" id="bloco-vermelho-2"></div></div>
+        <h2>Bloco Azul</h2>
+        <ul>
+            <li>O jogo possui apenas um bloco azul que aumenta sua velocidade a cada nivel do jogo.</li>
+            <li>O bloco azul é o único que pode capturar os blocos amarelos, e pontua sempre que captura um bloco amarelo.</li>
+            <li>O bloco vermelho sempre irá perseguir o azul, basta os blocos colidirem para ser declarado o fim de jogo.</li>
+        </ul>
+        <div class="areaAnimacao"><div class="blocoAzul" id="bloco-azul-2"></div><div class="blocoAmarelo" id="bloco-amarelo-2"></div></div>
     </div>
 
     <script src="./scripts/animacao-bloco-amarelo.js"></script>
+    <script src="./scripts/animacao-bloco-azul.js"></script>
 </body>
 </html>

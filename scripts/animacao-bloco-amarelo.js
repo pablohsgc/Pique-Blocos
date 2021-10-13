@@ -20,7 +20,7 @@ class Ponto{
     }
 }
 
-ponto = new Ponto(0,0,10);
+var ponto = new Ponto(0,0,10);
 
 var animacao = setInterval(() => {
     ponto.nova_coordenada();
