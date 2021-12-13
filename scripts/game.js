@@ -171,7 +171,6 @@ function animate(tecla){
 //Adicionando uma funcao que sera executada enquanto cada tecla for precionada
 window.onkeydown = (e) => {
     animate(e.key);
-    console.log(e.key);
 }
 
 
